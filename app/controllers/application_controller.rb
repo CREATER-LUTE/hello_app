@@ -4,7 +4,10 @@ class ApplicationController < ActionController::Base
   def goodbye
     render html: "¡Hola, mundo!"
   end
+  def hello
+    render html: "hello, world!"
+  end
   def goodbye
-    render html: "goodbye, world!"
+    render html: "oppi, world!"
   end
 end
